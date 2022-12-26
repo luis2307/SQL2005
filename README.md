@@ -1,6 +1,6 @@
 # SQL2005 How to reduce logs
 
-
-CHECKPOINT 
-DBCC SHRINKFILE ('bd_req_tec_LOG', 10)
-
+```sql
+CHECKPOINT
+DBCC SHRINKFILE ('[database_name]_LOG', 10)
+```
